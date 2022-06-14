@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: aalfaqih98/juleb-task
+    container_name: juleb-task
+    volumes:
+      - './status-cfg/cfg.json:/usr/src/app/cfg.json'
+    ports:
+      - 8080:3000
