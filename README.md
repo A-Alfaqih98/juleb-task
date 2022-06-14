@@ -12,6 +12,20 @@
 
 ### Run Docker Image with docker-compose.yml
 
+#### docker-compose.yml
+<pre><code>
+version: '3'
+services:
+  web:
+    image: aalfaqih98/juleb-task
+    container_name: juleb-task
+    volumes:
+      - './status-cfg/cfg.json:/usr/src/app/cfg.json'
+    ports:
+      - 8080:3000
+</code></pre>
+
+
 #### 1- Go to DockerComposeFile directory
 
 #### 2- Run app with docker-Compose (Start the Container)
