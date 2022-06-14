@@ -12,6 +12,9 @@
 
 ### Run Docker Image with docker-compose.yml
 
+### Docker Image: 
+aalfaqih98/juleb-task
+
 #### docker-compose.yml:
 <pre><code>
 version: '3'
