@@ -1,6 +1,12 @@
 ﻿# juleb-task
 ### Task: Package a Docker image for NestJS serving Ionic React app and push it on public docker registry with docker-compose instructions in the README
 
+### You need
+*NPM
+*Node.js
+*NestJS
+*Docker
+
 <hr style="border:2px solid orange">
 
 
