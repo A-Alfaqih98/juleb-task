@@ -12,7 +12,7 @@
 
 ### Run Docker Image with docker-compose.yml
 
-#### docker-compose.yml
+#### docker-compose.yml:
 <pre><code>
 version: '3'
 services:
