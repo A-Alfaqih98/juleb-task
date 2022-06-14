@@ -19,7 +19,7 @@
 <hr style="border:2px solid orange">
 
 
-## start Commands for Docker
+## Start Commands for Docker
 
 ### Build your image:
 <pre><code>docker build ./nestjs-dockerized -t <user>/juleb-task</code></pre>
